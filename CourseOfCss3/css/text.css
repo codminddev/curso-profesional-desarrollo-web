@@ -1,0 +1,28 @@
+/* Fuente externa */
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+
+@font-face{
+    src:url('/fonts/HanaleiFill-Regular.ttf');
+    font-family: hanaleiFill;
+}
+
+*{
+    background: honeydew;
+}
+
+h1{
+    font-size: 80px;
+    color:#dd901d;
+    font-family:hanaleiFill;
+    text-align: center;
+    text-shadow: 5px 5px gainsboro;
+}
+h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    word-spacing: 70px;
+}
+p{
+    letter-spacing: 2px;
+    line-height: 60px;
+}

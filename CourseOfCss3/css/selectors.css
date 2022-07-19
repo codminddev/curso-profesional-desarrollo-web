@@ -1,0 +1,34 @@
+/* TIPOS DE SELECTORES */
+/* Selectores globales o global */
+*{
+    background: wheat;
+}
+/* Selector por etiqueta */
+h1{
+    background: green;
+}
+h2{
+    background: hotpink;
+}
+/* Selector descendente */
+
+div p{
+    background: indianred;
+}
+
+/* Selectores por clase */
+.subtitulo{
+    background: indigo;
+}
+/* Selectores unicos o por id */
+#parrafo{
+    background: lawngreen;
+}
+/* Selectores avanzados */
+div>article>h2{
+    background: lime;
+}
+input[type="text"]{
+    background: maroon;
+    color: white;
+}

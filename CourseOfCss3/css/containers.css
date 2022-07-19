@@ -1,0 +1,15 @@
+*{
+    background: burlywood;
+}
+h2{
+    background: crimson;
+    color: cyan;
+}
+p{
+    background: crimson;
+    color: cyan;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+}

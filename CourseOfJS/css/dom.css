@@ -1,0 +1,16 @@
+body{
+    background: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    width:400px;
+    padding: 20px;
+}
+.cajita{
+    padding: 20px 10px;
+    text-align: center;
+    margin: 10px 0;
+    background: rgb(33, 82, 41);
+    font-size:24px;
+    color: white;
+}

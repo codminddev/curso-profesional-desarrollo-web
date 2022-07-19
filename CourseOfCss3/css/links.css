@@ -1,0 +1,23 @@
+body{
+    background: turquoise;
+}
+
+a{
+    background: black;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+a:link{
+    background-color: rgb(187, 2, 2);
+    color: white;
+}
+a:visited{
+    background-color: blue;
+    color: chartreuse;
+}
+a:hover{
+    background-color: darkblue;
+    color: darkgoldenrod;
+}

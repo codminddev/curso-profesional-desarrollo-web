@@ -1,0 +1,27 @@
+body{
+    background: burlywood;
+}
+.bloque{
+    background: cornflowerblue;
+    font-size: 26px;
+    color:cyan;
+    width: 500px;
+    padding: 30px;
+    display: inline-block;
+}
+.linea{
+    background: cornflowerblue;
+    font-size: 26px;
+    color:cyan;
+    padding: 10px;
+    display: block;
+       
+}
+.bloquito{
+    background: darkgoldenrod;
+    color: darkturquoise;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+}

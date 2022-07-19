@@ -1,0 +1,16 @@
+*{
+    background: honeydew;
+}
+
+h1{
+    background: red;
+}
+h2{
+    background: #d89216;
+}
+h3{
+    background: rgb(199, 0,57);
+}
+h4{
+    background:rgba(255, 285, 0, .5);
+}

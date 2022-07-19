@@ -1,0 +1,23 @@
+body{
+    background: burlywood;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+/* img{
+    float: right;
+    height: 240px;
+    margin-right: 30px;
+}
+p{
+    font-size: 23px;
+} */
+.caja{
+    float: left;
+    width: 30%;
+    border: 2px crimson solid ;
+    margin: 8px;
+    box-sizing: border-box;
+}

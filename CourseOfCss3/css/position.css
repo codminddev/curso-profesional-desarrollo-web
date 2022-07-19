@@ -1,0 +1,49 @@
+body{
+    background: burlywood;
+}
+/* Posiciones */
+/* .estatico{
+    border: 2px red solid;
+    font-size: 30px;
+    position: static;
+
+}
+.relativo{
+    border: 2px red solid;
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+} */
+
+/* Fixed */
+/* h2{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    right: 30px;
+
+}
+p{
+    background-color: tomato;
+    font-size: 30px;
+} */
+/* Absolute */
+.contenedor{
+    border: 2px red solid;
+    height: 700px;
+    width: 800px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    position: relative;
+}
+.contenedor h1{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+.contenedor h2{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}

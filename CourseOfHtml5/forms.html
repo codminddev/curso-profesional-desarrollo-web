@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <header>
+      <h1>Usando Formularios</h1>
+    </header>
+    <main>
+      <form action="">
+        <div>
+          
+          <input type="text" name="" id="nombre" placeholder="Ingrese su nombre" autofocus minlength="5" maxlength="20"/>
+        </div>
+        <div>
+          <label for="fecha">Fechas:</label>
+          <input type="date" name="" id="fecha" />
+        </div>
+        <div>
+          <label for="fechaconhora">Fecha con hora:</label>
+          <input type="datetime-local" name="" id="fechaconhora" />
+        </div>
+        <div>
+          <label for="contra">Ingrese su contraseña:</label>
+          <input type="password" name="" id="contra" required />
+        </div>
+        <div>
+          <label for="telefono">Telefono:</label>
+          <input type="tel" name="" id="telefono" value="1234567"  disabled/>
+        </div>
+        <div>
+          <label for="rango">Rango:</label>
+          <input type="range" name="" id="rango" min="5" max="20" step="2" />
+        </div>
+        <div>
+          <label for="radio">Radio:</label>
+          <input type="radio" name="opcionradio" id="radio" />
+          <label for="radio2">Radio2:</label>
+          <input type="radio" name="opcionradio" id="radio2" />
+          <label for="radio3">Radio3:</label>
+          <input type="radio" name="opcionradio" id="radio3" checked />
+        </div>
+
+        <div>
+          <select name="" id="">
+            <optgroup label="Mascotas">
+              <option value="perro">Perro</option>
+              <option value="gato">Gato</option>
+              <option value="perico">Perico</option>
+              <option value="perro">Perro</option>
+              <option value="gato">Gato</option>
+            </optgroup>
+            <optgroup label="No mascotas">
+              <option value="perico">Perico</option>
+              <option value="perro">Perro</option>
+              <option value="gato">Gato</option>
+              <option value="perico">Perico</option>
+              <option value="perro">Perro</option>
+              <option value="gato">Gato</option>
+              <option value="perico">Perico</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div>
+            <input type="list" list="mascotas">
+            <datalist id="mascotas">
+              <option value="perico">Perico</option>
+              <option value="perro">Perro</option>
+              <option value="gato">Gato</option>
+              <option value="perico">Perico</option>
+              <option value="perro">Perro</option>
+              <option value="gato">Gato</option>
+              <option value="perico">Perico</option>
+            </datalist>
+        </div>
+
+        <div>
+            <label for="">Mensajes grande</label>
+            <textarea name="" id="" cols="10" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="">Color</label>
+            <input type="color" name="" id="">
+        </div>
+        <div>
+            <label for="">Email:</label>
+            <input type="email" name="" id="">
+        </div>
+        <div>
+            <label for="">Seleccionar archivo</label>
+            <input type="file" name="" id="">
+        </div>
+        <div>
+            <label for="">Numer</label>
+            <input type="number" name="" id="">
+        </div>
+        <button>Enviar datos</button>
+        <input type="submit" value="Enviar" />
+      </form>
+    </main>
+  </body>
+</html>

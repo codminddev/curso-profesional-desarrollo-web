@@ -1,0 +1,32 @@
+
+body{
+    background: burlywood;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+.caja1{
+    background: darkorange;
+    color: white;
+    font-size: 23px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.caja2{
+    background: darkorange;
+    color: white;
+    font-size: 23px;
+    padding: 30px;
+    border-top: 20px red solid;
+    border-bottom: 15px red solid;
+    border-left: 15px red solid;
+    border-right: 15px red solid;
+
+}
